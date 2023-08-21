@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+      <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <title> chat app</title>
+    
+  </head>
+  <body>
+  
+   <header class="first-head">
+      <div class="icon-1-head">
+        <i class="fas fa-bars" id="harmbuger"></i>
+      </div>
+      <div class="icon-1-head">
+        <p>New Chat</p>
+      </div>
+      <div class="icon-1-head" id="resetButton">
+        <i class="fas fa-plus"></i>
+      </div>
+    </header>
+    <nav class="left-nav" id="left-nav">
+      <div class="div-btn">
+       <button class="nav-btn">
+        <i class="fas fa-plus"></i>
+        New Chat
+      </button>
+      <div class="add-btn">
+        <i class="fa fa-times"></i>
+      </div>
+      <p class="day">Today <span id="time"></span></p>
+      </div>
+      <div class="history">
+          <!--          -->
+      </div>
+      <div class="profile">
+        <div class="main-profile">
+          <i class="fa fa-user"> <p> upgrade to plus</p></i>
+        <!--   <p> upgrade to plus</p> -->
+          <span>New</span>
+        </div>
+        <div class="account">
+          <div class="account-logo">
+            ks
+          </div>
+          <div class="account-mail">
+            kamdilichukwu2020@gmail.com
+          </div>
+          <div class="account-more">
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+     <!--  =============== main =====================    -->
+    <main>
+      <div class="upper">
+        <div class="upper-1">
+          <i class="fa fa-bolt"></i>
+          GPT-3.5
+          <img src="images/circle-i.svg" alt="" />
+           <div class="text">
+            <h5>Our fastest model, great for most everyday task</h5>
+            <span>Available to free and plus users</span>
+          </div>
+       </div>
+        <div class="upper-2">
+          <img src="images/sparkles.svg" alt="" />
+          GPT-4
+          <i class="fa fa-lock"></i>
+          <div class="text">
+            <h5>Our most capable model, great for task that required creativity and advance reasoning.  </h5>
+            <span>Available to plus users</span>
+            <p>GPT-4 currently has a cap of 25 message every 3 hours</p>
+            <button>Upgrade to GPT plus </button>
+          </div>
+        </div>
+      
+      </div>
+      <div class="down">
+        <div class="down-1">
+          <div class="">
+             <h5>Create workout plan</h5>
+            <p>for resistance training</p>
+          </div>
+          <div class="t">
+            <i class="fas fa-paper-plane"></i>
+          </div>
+        </div>
+        <div class="down-2">
+          <div class="">
+            <h5>Recommend a dish</h5>
+          <p>to impress a date who's pickey eater</p>
+          </div>
+          <div class="t">
+            <i class="fas fa-paper-plane"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="footer">
+      <div class="input">
+        <div class="i">
+          <input type="text" pattern="{a-z A-Z}" id="input" placeholder="send a message">
+          <button id="sendButton"><i class="fas fa-paper-plane"></i></button>
+        
+        </div>
+       <div class="rotate">
+         <i class="fas fa-spinner"></i>
+       </div>
+      </div>
+      <div class="about">
+        Free Research Preview. ChatGPT may produce inaccurate information about people, places, or facts. <u>ChatGPT August 3 Version</u>
+      </div>
+    </div>
+    <div class="message">
+      <div class="human">
+        <div class="pic">
+          <p>ks</p>
+        </div>
+        <div class="question">
+          
+        </div>
+      </div>
+      <div class="ai">
+        <div class="pic">
+          <p><i class="fas fa-robot"></i></p>
+        </div>
+        <div class="answer">
+          
+        </div>
+      </div>
+    </div>
+    
+    <script src="script.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
