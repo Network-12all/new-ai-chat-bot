@@ -437,9 +437,11 @@ main .down{
   bottom: 0;
   width: 100%;
   background: #979494;
-  padding: 100px;
+  padding-top: 100px;
   overflow-y: scroll;
   display: none;
+  left: 0;
+  right: 0;
 }
 
 .show{
